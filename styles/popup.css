@@ -1,0 +1,37 @@
+main {
+  box-sizing: border-box;
+  flex-flow: column nowrap;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem auto;
+}
+.main-header {
+  text-align: center;
+}
+
+.report-section {
+}
+
+.action-box {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.action-box > button {
+  width: 100px;
+}
+
+#rip-single-btn {
+}
+#rip-all-btn {
+}
+
+.error-element-inject {
+  position: absolute;
+}
